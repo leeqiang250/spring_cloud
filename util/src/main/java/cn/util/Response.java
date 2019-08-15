@@ -1,4 +1,4 @@
-package cn;
+package cn.util;
 
 import lombok.Data;
 

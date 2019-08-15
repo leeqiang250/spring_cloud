@@ -1,4 +1,4 @@
-package cn;
+package cn.util;
 
 import io.swagger.annotations.Api;
 import lombok.Data;

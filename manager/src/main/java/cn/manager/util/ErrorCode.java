@@ -1,4 +1,4 @@
-package cn.api.util;
+package cn.manager.util;
 
 import io.swagger.annotations.Api;
 

@@ -1,4 +1,4 @@
-package cn.util;
+package cn.common.util;
 
 import io.swagger.annotations.Api;
 import lombok.Data;
@@ -13,7 +13,7 @@ public class ErrorCodeDTO implements Serializable {
 
     private String desc;
 
-    ErrorCodeDTO(String code, String desc) {
+    public ErrorCodeDTO(String code, String desc) {
         this.code = code;
         this.desc = desc;
     }

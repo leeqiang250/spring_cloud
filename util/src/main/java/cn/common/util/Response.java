@@ -1,10 +1,12 @@
-package cn.util;
+package cn.common.util;
 
+import io.swagger.annotations.Api;
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Data
+@Api(description = "数据传输响应对象", tags = "数据传输响应对象")
 public class Response<T> implements Serializable {
 
     private final String status;

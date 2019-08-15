@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744e2e1e-974e-434a-896e-698baf696e65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../api/src/main/java/cn/api/Controller/ResponseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../util/src/main/java/cn/util/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../util/src/main/java/cn/util/ErrorCodeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/cn/api/util/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api/src/main/java/cn/api/Controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api/src/main/java/cn/api/Controller/APIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/src/main/java/cn/api/Controller/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api/src/main/java/cn/api/controller/APIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/src/main/java/cn/api/Controller/ResponseCode.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../util/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/util/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/ErrorCodeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ErrorCodeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/util/TypeConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/TypeConvert.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565868517776" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565868943959" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />

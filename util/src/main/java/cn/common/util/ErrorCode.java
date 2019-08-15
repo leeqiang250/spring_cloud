@@ -1,7 +1,6 @@
-package cn.util;
+package cn.common.util;
 
 import io.swagger.annotations.Api;
-import lombok.Data;
 
 @Api(description = "错误代码列表", tags = "错误代码列表")
 public class ErrorCode {

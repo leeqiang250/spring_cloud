@@ -1,6 +1,7 @@
-package cn.api.Controller;
+package cn.api.controller;
 
-import cn.util.Response;
+import cn.api.util.ErrorCode;
+import cn.common.util.Response;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,9 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class APIController {
 
 
-    private static ResponseCode fd = new ResponseCode();
-
     public Response<Boolean> get() {
+
         return Response.Success();
     }
 

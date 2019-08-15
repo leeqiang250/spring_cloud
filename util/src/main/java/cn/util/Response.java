@@ -13,13 +13,13 @@ public class Response<T> implements Serializable {
 
     private final T data;
 
-    public Response(ResponseCode code) {
-        this(code, null);
+    public Response(ErrorCodeDTO dto) {
+        this(dto, null);
     }
 
-    public Response(ResponseCode code, T data) {
-        this.status = code.getCode();
-        this.msg = code.getDesc();
+    public Response(ErrorCodeDTO dto, T data) {
+        this.status = dto.getCode();
+        this.msg = dto.getDesc();
         this.data = data;
     }
 
@@ -40,7 +40,7 @@ public class Response<T> implements Serializable {
     }
 
     public static <T> Response<T> Success(T data) {
-        return new Response<T>(ResponseCode.SUCCESS, data);
+        return new Response<T>(ErrorCode.Success, data);
     }
 
     public static Response<Boolean> Fail() {
@@ -48,7 +48,7 @@ public class Response<T> implements Serializable {
     }
 
     public static <T> Response<T> Fail(T data) {
-        return new Response<T>(ResponseCode.FAIL, data);
+        return new Response<T>(ErrorCode.Fail, data);
     }
 
 }

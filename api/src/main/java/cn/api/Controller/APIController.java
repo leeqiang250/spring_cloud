@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/v0/api")
 public class APIController {
 
+
+    private static ResponseCode fd = new ResponseCode();
+
     public Response<Boolean> get() {
         return Response.Success();
     }

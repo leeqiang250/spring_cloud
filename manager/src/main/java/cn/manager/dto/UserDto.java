@@ -1,4 +1,4 @@
-package cn.user.dto;
+package cn.manager.dto;
 
 import cn.common.util.DTO;
 import lombok.Data;

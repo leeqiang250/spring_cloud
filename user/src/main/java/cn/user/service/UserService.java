@@ -5,4 +5,6 @@ import cn.user.dto.UserDto;
 
 public interface UserService extends Service<UserDto> {
 
+    UserDto getByToken(String token);
+
 }

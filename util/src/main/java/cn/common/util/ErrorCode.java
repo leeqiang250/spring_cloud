@@ -7,5 +7,6 @@ public class ErrorCode {
 
     public final static ErrorCodeDTO Success = new ErrorCodeDTO("200", "success");
     public final static ErrorCodeDTO Fail = new ErrorCodeDTO("500", "fail");
+    public final static ErrorCodeDTO ParamError = new ErrorCodeDTO("501", "param error");
 
 }

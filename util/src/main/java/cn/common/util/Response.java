@@ -3,6 +3,7 @@ package cn.common.util;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import org.springframework.util.StringUtils;
 
 import java.io.Serializable;
 
@@ -11,13 +12,16 @@ import java.io.Serializable;
 public class Response<T> implements Serializable {
 
     @ApiModelProperty("状态")
-    private final String status;
+    private String status;
 
     @ApiModelProperty("消息")
-    private final String msg;
+    private String msg;
 
     @ApiModelProperty("内容")
-    private final T data;
+    private T data;
+
+    public Response() {
+    }
 
     public Response(ErrorCodeDTO dto) {
         this(dto, null);
@@ -28,6 +32,39 @@ public class Response<T> implements Serializable {
         this.msg = dto.getDesc();
         this.data = data;
     }
+
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    public boolean isSuccess() {
+        if (StringUtils.isEmpty(this.status))
+            return false;
+
+        return this.status.equals(ErrorCode.Success.getCode());
+    }
+
 
     public static Response<Boolean> Success() {
         return Success(Boolean.TRUE);

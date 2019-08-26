@@ -1,6 +1,7 @@
 package cn.common.util;
 
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -9,10 +10,13 @@ import java.io.Serializable;
 @Api(description = "数据传输响应对象", tags = "数据传输响应对象")
 public class Response<T> implements Serializable {
 
+    @ApiModelProperty("状态")
     private final String status;
 
+    @ApiModelProperty("消息")
     private final String msg;
 
+    @ApiModelProperty("内容")
     private final T data;
 
     public Response(ErrorCodeDTO dto) {

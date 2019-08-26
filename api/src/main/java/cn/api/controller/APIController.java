@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/v0/api")
 public class APIController {
 
-
     public Response<Boolean> get() {
 
         return Response.Success();

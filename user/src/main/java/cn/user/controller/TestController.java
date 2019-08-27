@@ -30,7 +30,7 @@ public class TestController extends Controller<Test, TestDto> {
     @Override
     @PostMapping({"/deleteAll"})
     @ApiOperation("deleteAll")
-    public Response<Boolean> deleteAll(@ApiParam(required = true,value = "token") @RequestHeader("token") String token) {
+    public Response<Boolean> deleteAll(@ApiParam(required = true, value = "token") @RequestHeader("token") String token) {
         throw new BusinessException(ErrorCode.ParamError);
     }
 

@@ -16,7 +16,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/test")
-@Api("test")
+@Api("testTestController")
 public class TestController extends Controller<Test, TestDto> {
 
     @Autowired

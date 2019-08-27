@@ -1,5 +1,7 @@
 package cn.user.entity;
 
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.*;
 
 @Entity

@@ -58,11 +58,12 @@ public class Response<T> implements Serializable {
         this.data = data;
     }
 
-    public boolean isSuccess() {
-        if (StringUtils.isEmpty(this.status))
+
+    public static boolean isSuccess(Response response) {
+        if (response == null || StringUtils.isEmpty(response.getStatus()))
             return false;
 
-        return this.status.equals(ErrorCode.Success.getCode());
+        return response.getStatus().equals(ErrorCode.Success.getCode());
     }
 
 

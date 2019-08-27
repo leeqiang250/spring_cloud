@@ -1,11 +1,30 @@
 package cn.common.util;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 
-public interface Service<T> {
+@Api("Service")
+public interface Service<E extends Entity, D extends Dto> {
 
-    boolean add(T t);
+    @Transactional
+    @ApiOperation("增加或修改数据")
+    boolean addOrUpdate(D d);
 
-    List<T> getAll();
+    @Transactional
+    @ApiOperation("删除数据通过id")
+    boolean deleteById(Long id);
+
+    @Transactional
+    @ApiOperation("删除全部数据")
+    boolean deleteAll();
+
+    @ApiOperation("获取数据通过id")
+    <E> E getById(Long id);
+
+    @ApiOperation("获取全部数据")
+    List<D> getAll();
 
 }

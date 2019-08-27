@@ -8,7 +8,7 @@ import org.springframework.util.StringUtils;
 import java.io.Serializable;
 
 @Data
-@Api(description = "数据传输响应对象", tags = "数据传输响应对象")
+@Api("数据传输响应对象")
 public class Response<T> implements Serializable {
 
     @ApiModelProperty("状态")

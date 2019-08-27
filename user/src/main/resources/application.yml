@@ -6,4 +6,7 @@ spring:
     active: dev
   application:
     name: service-user
-
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update

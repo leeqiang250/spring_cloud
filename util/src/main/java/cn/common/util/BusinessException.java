@@ -6,30 +6,23 @@ import io.swagger.annotations.ApiModelProperty;
 @Api("业务异常")
 public class BusinessException extends RuntimeException {
 
-    @ApiModelProperty("状态")
-    private String status;
-
-    @ApiModelProperty("消息")
-    private String msg;
+    @ApiModelProperty("异常传输DTO")
+    private ErrorCodeDTO errorCodeDTO;
 
     public BusinessException(ErrorCodeDTO dto) {
-        this.status = dto.getCode();
-        this.msg = dto.getDesc();
+        this.errorCodeDTO = dto;
     }
 
-    public String getStatus() {
-        return status;
+    public ErrorCodeDTO getErrorCodeDTO() {
+        return errorCodeDTO;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setErrorCodeDTO(ErrorCodeDTO errorCodeDTO) {
+        this.errorCodeDTO = errorCodeDTO;
     }
 
-    public String getMsg() {
-        return msg;
+    public static BusinessException exception(ErrorCodeDTO dto) {
+        return new BusinessException(dto);
     }
 
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
 }

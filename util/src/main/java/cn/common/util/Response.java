@@ -63,7 +63,7 @@ public class Response<T> implements Serializable {
         if (response == null || StringUtils.isEmpty(response.getStatus()))
             return false;
 
-        return response.getStatus().equals(ErrorCode.Success.getCode());
+        return response.getStatus().equals(Error.Success.getCode());
     }
 
 
@@ -84,7 +84,7 @@ public class Response<T> implements Serializable {
     }
 
     public static <T> Response<T> Success(T data) {
-        return new Response<T>(ErrorCode.Success, data);
+        return new Response<T>(Error.Success, data);
     }
 
     public static Response<Boolean> Fail() {
@@ -92,7 +92,7 @@ public class Response<T> implements Serializable {
     }
 
     public static <T> Response<T> Fail(T data) {
-        return new Response<T>(ErrorCode.Fail, data);
+        return new Response<T>(Error.Fail, data);
     }
 
 }

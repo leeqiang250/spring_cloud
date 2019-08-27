@@ -3,7 +3,7 @@ package cn.common.util;
 import io.swagger.annotations.Api;
 
 @Api("错误代码列表")
-public class ErrorCode {
+public class Error {
 
     public final static ErrorCodeDTO Success = new ErrorCodeDTO("200", "success");
     public final static ErrorCodeDTO Fail = new ErrorCodeDTO("500", "fail");

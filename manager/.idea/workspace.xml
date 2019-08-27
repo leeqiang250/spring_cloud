@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="744e2e1e-974e-434a-896e-698baf696e65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/util/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/util/Error.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../util/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -248,7 +253,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566902101451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566902291085" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />

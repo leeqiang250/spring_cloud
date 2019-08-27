@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="781ebb9f-c3bd-478c-9a2f-2ea4e7c91bbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/util/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/util/Error.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../util/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -23,7 +23,7 @@ public abstract class ServiceImpl<E extends Entity, D extends Dto> {
     @ApiOperation("增加或修改数据")
     public boolean addOrUpdate(D d) {
         if (d == null)
-            throw new BusinessException(ErrorCode.ParamError);
+            throw new BusinessException(Error.ParamError);
 
         E e = TypeConvert.get(d, eClass);
         getRepository().save(e);
@@ -34,7 +34,7 @@ public abstract class ServiceImpl<E extends Entity, D extends Dto> {
     @ApiOperation("删除数据通过id")
     public boolean deleteById(Long id) {
         if (id == null)
-            throw new BusinessException(ErrorCode.ParamError);
+            throw new BusinessException(Error.ParamError);
 
         getRepository().deleteById(id);
         return true;
@@ -50,7 +50,7 @@ public abstract class ServiceImpl<E extends Entity, D extends Dto> {
     @ApiOperation("获取数据通过id")
     public D getById(Long id) {
         if (id == null)
-            throw new BusinessException(ErrorCode.ParamError);
+            throw new BusinessException(Error.ParamError);
 
         Optional<E> es = getRepository().findById(id);
         if (es == null || es.equals(Optional.empty()))

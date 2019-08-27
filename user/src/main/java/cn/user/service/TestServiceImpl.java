@@ -1,7 +1,7 @@
 package cn.user.service;
 
 import cn.common.util.BusinessException;
-import cn.common.util.ErrorCode;
+import cn.common.util.Error;
 import cn.common.util.ServiceImpl;
 import cn.common.util.TypeConvert;
 import cn.user.dto.TestDto;
@@ -32,7 +32,7 @@ public class TestServiceImpl extends ServiceImpl<Test, TestDto> implements TestS
 
     @Override
     public boolean deleteAll() {
-        throw new BusinessException(ErrorCode.ParamError);
+        throw new BusinessException(Error.Forbid);
     }
 
     @Override

@@ -22,7 +22,7 @@ public interface Service<E extends Entity, D extends Dto> {
     boolean deleteAll();
 
     @ApiOperation("获取数据通过id")
-    <E> E getById(Long id);
+    D getById(Long id);
 
     @ApiOperation("获取全部数据")
     List<D> getAll();

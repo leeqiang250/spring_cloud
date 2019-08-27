@@ -1,11 +1,13 @@
 package cn.user.entity;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "test")
+@Api("Test")
 public class Test extends cn.common.util.Entity {
 
     @Id

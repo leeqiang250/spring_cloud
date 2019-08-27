@@ -31,7 +31,7 @@ public abstract class Controller<E extends Entity, D extends Dto> {
 
     @GetMapping("/getById/{id}")
     @ApiOperation("获取数据通过id")
-    public Response<E> getById(@ApiParam(required = true, value = "token") @RequestHeader(value = "token") String token, @ApiParam(required = true, value = "id") @PathVariable Long id) {
+    public Response<D> getById(@ApiParam(required = true, value = "token") @RequestHeader(value = "token") String token, @ApiParam(required = true, value = "id") @PathVariable Long id) {
         return Response.Success(getService().getById(id));
     }
 

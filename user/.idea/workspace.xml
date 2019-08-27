@@ -2,15 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b367e5c4-5873-43e8-a3d1-43f38a14d8e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_38_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/user/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/user/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/user/dto/TestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/user/dto/TestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/user/entity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/user/entity/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/user/repository/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/user/repository/TestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/user/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/user/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/user/service/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/user/service/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../util/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Dto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/TypeConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/TypeConvert.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,38 +51,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="25" />
+          <entry key="class" value="31" />
           <entry key="iml" value="1" />
-          <entry key="java" value="55" />
-          <entry key="xml" value="8" />
-          <entry key="yml" value="12" />
+          <entry key="java" value="72" />
+          <entry key="xml" value="9" />
+          <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="25" />
+          <entry key="CLASS" value="31" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="55" />
-          <entry key="XML" value="8" />
-          <entry key="YAML" value="12" />
+          <entry key="JAVA" value="72" />
+          <entry key="XML" value="9" />
+          <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
           <entry key="dummy" value="17" />
-          <entry key="java" value="1004" />
+          <entry key="java" value="1324" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="42" />
+          <entry key="xml" value="43" />
           <entry key="yml" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="1004" />
+          <entry key="JAVA" value="1324" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="XML" value="42" />
+          <entry key="XML" value="43" />
           <entry key="YAML" value="203" />
         </counts>
       </usages-collector>
@@ -69,28 +90,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/controller/TestController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/service/TestServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="576">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/Response.class">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/maven/repository/com/alibaba/fastjson/1.2.12/fastjson-1.2.12-sources.jar!/com/alibaba/fastjson/JSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+            <state relative-caret-position="1003">
+              <caret line="819" column="5" selection-start-line="819" selection-start-column="5" selection-end-line="819" selection-end-column="5" />
               <folding>
-                <element signature="e#1790#1791#0" expanded="true" />
-                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="docComment;class#JSON#0" />
+                <element signature="initializer##0;class#JSON#0" />
+                <element signature="initializer##1;class#JSON#0" />
+                <element signature="e#4763#5125#0" />
+                <element signature="e#5131#5380#0" />
+                <element signature="e#5386#5840#0" />
+                <element signature="e#5846#6592#0" />
+                <element signature="e#6598#6889#0" />
+                <element signature="e#6895#7024#0" />
+                <element signature="e#7030#7256#0" />
+                <element signature="e#7262#7573#0" />
+                <element signature="e#7262#7813#0" />
+                <element signature="e#7819#8828#0" />
+                <element signature="e#7819#9070#0" />
+                <element signature="e#9076#9373#0" />
+                <element signature="e#9379#10303#0" />
+                <element signature="e#9379#10526#0" />
+                <element signature="e#10532#10789#0" />
+                <element signature="e#10795#11385#0" />
+                <element signature="e#11395#11427#0" />
+                <element signature="e#11395#11629#0" />
+                <element signature="e#11635#11884#0" />
+                <element signature="e#11890#13066#0" />
+                <element signature="e#13072#13280#0" />
+                <element signature="e#13290#13322#0" />
+                <element signature="e#13290#13965#0" />
+                <element signature="e#13971#14792#0" />
+                <element signature="e#14798#15462#0" />
+                <element signature="e#15472#15504#0" />
+                <element signature="e#15472#15794#0" />
+                <element signature="e#15804#15836#0" />
+                <element signature="e#15804#16795#0" />
+                <element signature="e#16932#17595#0" />
+                <element signature="e#17601#18325#0" />
+                <element signature="e#18331#18872#0" />
+                <element signature="e#18878#19430#0" />
+                <element signature="e#19548#19708#0" />
+                <element signature="e#19718#19750#0" />
+                <element signature="e#19718#20164#0" />
+                <element signature="e#20170#20202#0" />
+                <element signature="e#20170#20508#0" />
+                <element signature="e#20514#20768#0" />
+                <element signature="e#20774#21008#0" />
+                <element signature="e#21014#21172#0" />
+                <element signature="e#21182#21215#0" />
+                <element signature="e#21182#21422#0" />
+                <element signature="e#21428#21618#0" />
+                <element signature="e#21624#22001#0" />
+                <element signature="e#22007#22364#0" />
+                <element signature="e#22374#22420#0" />
+                <element signature="e#22374#23519#0" />
+                <element signature="e#23525#23555#0" />
+                <element signature="e#23525#23752#0" />
+                <element signature="e#23758#23948#0" />
+                <element signature="e#23958#23991#0" />
+                <element signature="e#23958#24438#0" />
+                <element signature="e#24444#24672#0" />
+                <element signature="e#24682#24732#0" />
+                <element signature="e#24682#24893#0" />
+                <element signature="e#24899#25254#0" />
+                <element signature="e#24899#25444#0" />
+                <element signature="e#25454#25487#0" />
+                <element signature="e#25454#25875#0" />
+                <element signature="e#25885#26083#0" />
+                <element signature="e#25885#26395#0" />
+                <element signature="e#26405#26438#0" />
+                <element signature="e#26405#27097#0" />
+                <element signature="e#27107#27771#0" />
+                <element signature="e#27781#29139#0" />
+                <element signature="e#29274#29516#0" />
+                <element signature="e#29522#29888#0" />
+                <element signature="e#29894#30040#0" />
+                <element signature="e#30172#30202#0" />
+                <element signature="e#30172#30355#0" />
+                <element signature="e#30365#32914#0" />
+                <element signature="e#32920#33065#0" />
+                <element signature="e#33075#33106#0" />
+                <element signature="e#33385#33826#0" />
+                <element signature="e#33921#34362#0" />
               </folding>
             </state>
           </provider>
@@ -133,14 +229,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/user/util/ErrorCode.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/user/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/user/dto/TestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/user/entity/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/user/repository/TestRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/user/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/user/service/TestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/user/util/ErrorCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/user/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/user/entity/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/user/dto/TestDto.java" />
       </list>
     </option>
   </component>
@@ -296,32 +392,6 @@
               <item name="user" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="user" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn:util:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="user" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn:util:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="util-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn:util:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="util-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="user" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn:util:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="util-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -338,7 +408,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566899389673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566902076924" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -405,12 +475,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566803937728</updated>
-      <workItem from="1566803939537" duration="24236000" />
+      <workItem from="1566803939537" duration="26899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24236000" />
+    <option name="totallyTimeSpent" value="26899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
@@ -440,7 +510,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" weight="0.17474186" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.2406672" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
@@ -490,17 +560,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/user/controller/TestController.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>JSON.toJSON(obj)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(JSON)JSON.toJSON(obj)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.toJavaObject((JSON)JSON.toJSON(obj), clazz)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/UserApplication.java">
@@ -615,46 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/repository/TestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/service/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -672,34 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/maven/repository/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/bind/annotation/GetMapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
-          <caret line="14" column="28" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/util/ErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -717,49 +734,285 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/entity/Test.java">
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/Response.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
+            <element signature="e#0#4340#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1753#1754#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#3748#3749#0" expanded="true" />
+            <element signature="e#3796#3797#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class" />
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/dto/TestDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="144">
+          <caret line="8" column="2" selection-start-line="8" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/entity/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/repository/TestRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/util/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/DTO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="454">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/Response.class">
+    <entry file="jar://$USER_HOME$/Library/maven/repository/com/alibaba/fastjson/1.2.12/fastjson-1.2.12-sources.jar!/com/alibaba/fastjson/JSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+        <state relative-caret-position="1003">
+          <caret line="819" column="5" selection-start-line="819" selection-start-column="5" selection-end-line="819" selection-end-column="5" />
           <folding>
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="docComment;class#JSON#0" />
+            <element signature="initializer##0;class#JSON#0" />
+            <element signature="initializer##1;class#JSON#0" />
+            <element signature="e#4763#5125#0" />
+            <element signature="e#5131#5380#0" />
+            <element signature="e#5386#5840#0" />
+            <element signature="e#5846#6592#0" />
+            <element signature="e#6598#6889#0" />
+            <element signature="e#6895#7024#0" />
+            <element signature="e#7030#7256#0" />
+            <element signature="e#7262#7573#0" />
+            <element signature="e#7262#7813#0" />
+            <element signature="e#7819#8828#0" />
+            <element signature="e#7819#9070#0" />
+            <element signature="e#9076#9373#0" />
+            <element signature="e#9379#10303#0" />
+            <element signature="e#9379#10526#0" />
+            <element signature="e#10532#10789#0" />
+            <element signature="e#10795#11385#0" />
+            <element signature="e#11395#11427#0" />
+            <element signature="e#11395#11629#0" />
+            <element signature="e#11635#11884#0" />
+            <element signature="e#11890#13066#0" />
+            <element signature="e#13072#13280#0" />
+            <element signature="e#13290#13322#0" />
+            <element signature="e#13290#13965#0" />
+            <element signature="e#13971#14792#0" />
+            <element signature="e#14798#15462#0" />
+            <element signature="e#15472#15504#0" />
+            <element signature="e#15472#15794#0" />
+            <element signature="e#15804#15836#0" />
+            <element signature="e#15804#16795#0" />
+            <element signature="e#16932#17595#0" />
+            <element signature="e#17601#18325#0" />
+            <element signature="e#18331#18872#0" />
+            <element signature="e#18878#19430#0" />
+            <element signature="e#19548#19708#0" />
+            <element signature="e#19718#19750#0" />
+            <element signature="e#19718#20164#0" />
+            <element signature="e#20170#20202#0" />
+            <element signature="e#20170#20508#0" />
+            <element signature="e#20514#20768#0" />
+            <element signature="e#20774#21008#0" />
+            <element signature="e#21014#21172#0" />
+            <element signature="e#21182#21215#0" />
+            <element signature="e#21182#21422#0" />
+            <element signature="e#21428#21618#0" />
+            <element signature="e#21624#22001#0" />
+            <element signature="e#22007#22364#0" />
+            <element signature="e#22374#22420#0" />
+            <element signature="e#22374#23519#0" />
+            <element signature="e#23525#23555#0" />
+            <element signature="e#23525#23752#0" />
+            <element signature="e#23758#23948#0" />
+            <element signature="e#23958#23991#0" />
+            <element signature="e#23958#24438#0" />
+            <element signature="e#24444#24672#0" />
+            <element signature="e#24682#24732#0" />
+            <element signature="e#24682#24893#0" />
+            <element signature="e#24899#25254#0" />
+            <element signature="e#24899#25444#0" />
+            <element signature="e#25454#25487#0" />
+            <element signature="e#25454#25875#0" />
+            <element signature="e#25885#26083#0" />
+            <element signature="e#25885#26395#0" />
+            <element signature="e#26405#26438#0" />
+            <element signature="e#26405#27097#0" />
+            <element signature="e#27107#27771#0" />
+            <element signature="e#27781#29139#0" />
+            <element signature="e#29274#29516#0" />
+            <element signature="e#29522#29888#0" />
+            <element signature="e#29894#30040#0" />
+            <element signature="e#30172#30202#0" />
+            <element signature="e#30172#30355#0" />
+            <element signature="e#30365#32914#0" />
+            <element signature="e#32920#33065#0" />
+            <element signature="e#33075#33106#0" />
+            <element signature="e#33385#33826#0" />
+            <element signature="e#33921#34362#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/maven/repository/cn/util/1.0-SNAPSHOT/util-1.0-SNAPSHOT.jar!/cn/common/util/TypeConvert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/user/service/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

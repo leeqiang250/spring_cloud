@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c610437-3938-4770-80e2-9f63eda70795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_buffer_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_codec_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_common_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_handler_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_resolver_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_transport_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/dto/TestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/dto/TestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/entity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/entity/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/repository/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/repository/TestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/TypeConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/TypeConvert.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -318,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566902076954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566902101577" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -384,12 +358,12 @@
       <workItem from="1566444823859" duration="2215000" />
       <workItem from="1566528017195" duration="411000" />
       <workItem from="1566790912080" duration="16591000" />
-      <workItem from="1566894649266" duration="5455000" />
+      <workItem from="1566894649266" duration="5480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28882000" />
+    <option name="totallyTimeSpent" value="28907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />

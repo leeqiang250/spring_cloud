@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="781ebb9f-c3bd-478c-9a2f-2ea4e7c91bbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_buffer_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_codec_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_common_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_handler_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_resolver_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_netty_netty_transport_4_1_38_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/dto/TestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/dto/TestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/entity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/entity/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/repository/TestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/repository/TestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/service/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/user.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../util/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/TypeConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../util/src/main/java/cn/common/util/TypeConvert.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

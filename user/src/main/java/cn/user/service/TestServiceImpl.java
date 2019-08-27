@@ -15,8 +15,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.List;
-
 @Service
 @Api("TestServiceImpl")
 public class TestServiceImpl extends ServiceImpl<Test, TestDto> implements TestService {

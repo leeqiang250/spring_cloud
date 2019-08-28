@@ -1,6 +1,7 @@
 package cn.user.controller;
 
 import cn.common.util.*;
+import cn.user.config.ParamConfig;
 import cn.user.dto.TestDto;
 import cn.user.entity.Test;
 import cn.user.service.TestService;
@@ -8,11 +9,13 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.UUID;
 
+@RefreshScope
 @RestController
 @RequestMapping("/test")
 @Api("testTestController")
@@ -53,6 +56,12 @@ public class TestController extends Controller<Test, TestDto> {
     @GetMapping("/test2")
     @ApiOperation("test2")
     public Response<String> test2() {
-        return Response.Success(name);
+        return Response.Success(name + ParamConfig.name0_name00_name000);
+    }
+
+    @GetMapping("/test3")
+    @ApiOperation("test3")
+    public code0 test3() {
+        return null;
     }
 }

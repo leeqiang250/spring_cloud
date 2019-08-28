@@ -35,6 +35,12 @@ public abstract class Controller<E extends Entity, D extends Dto> {
         return Response.Success(getService().getById(id));
     }
 
+    @GetMapping("/getPage")
+    @ApiOperation("获取分页数据")
+    public Response<cn.common.util.Page<D>> getPage(@ApiParam(required = true, value = "token") @RequestHeader(value = "token") String token, @ApiParam(required = true, value = "body") @RequestBody Pageable pageable) {
+        return Response.Success(getService().getPage(pageable));
+    }
+
     @GetMapping("/getAll")
     @ApiOperation("获取全部数据")
     public Response<List<D>> getAll(@ApiParam(required = true, value = "token") @RequestHeader(value = "token") String token) {

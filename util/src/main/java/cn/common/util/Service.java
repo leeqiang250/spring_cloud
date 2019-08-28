@@ -24,6 +24,9 @@ public interface Service<E extends Entity, D extends Dto> {
     @ApiOperation("获取数据通过id")
     D getById(Long id);
 
+    @ApiOperation("获取分页数据")
+    cn.common.util.Page<D> getPage(Pageable pageable);
+
     @ApiOperation("获取全部数据")
     List<D> getAll();
 

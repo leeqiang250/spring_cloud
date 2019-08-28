@@ -10,7 +10,9 @@ spring:
       discovery:
         service-id: service-config
         enabled: true
+      fail-fast: true
   jpa:
     show-sql: false
     hibernate:
       ddl-auto: update
+    open-in-view: false

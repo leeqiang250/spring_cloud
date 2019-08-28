@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-api
+
+zuul:
+  routes:
+    user:
+      path: /user/**
+      serviceId: service-user
+    manager:
+      path: /manager/**
+      serviceId: service-manager

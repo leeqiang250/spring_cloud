@@ -1,6 +1,5 @@
 package cn.api.controller;
 
-import cn.api.util.ErrorCode;
 import cn.common.util.Response;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

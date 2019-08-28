@@ -1,13 +1,11 @@
 package cn.user.controller;
 
-
 import cn.common.util.*;
 import cn.user.dto.TestDto;
 import cn.user.entity.Test;
 import cn.user.service.TestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -39,12 +37,18 @@ public class TestController extends Controller<Test, TestDto> {
         return response;
     }
 
-    @GetMapping("/test")
-    @ApiOperation("test")
-    public Response<List<TestDto>> test() {
+    @GetMapping("/test1")
+    @ApiOperation("test1")
+    public Response<List<TestDto>> test1() {
         TestDto dto = new TestDto();
         dto.setTest(UUID.randomUUID().toString());
         testService.addOrUpdate(dto);
         return Response.Success(testService.getAll());
+    }
+
+    @GetMapping("/test2")
+    @ApiOperation("test2")
+    public Response<String> test2() {
+        return Response.Success("service-user");
     }
 }

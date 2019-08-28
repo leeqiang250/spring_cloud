@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b367e5c4-5873-43e8-a3d1-43f38a14d8e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/src/main/java/cn/api/controller/APIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/src/main/java/cn/api/util/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/src/test/java/cn/api/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api/src/test/java/cn/api/ApiApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../util/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -277,7 +280,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566975345197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566975675726" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />

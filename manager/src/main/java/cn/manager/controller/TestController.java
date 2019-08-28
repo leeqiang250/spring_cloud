@@ -10,6 +10,7 @@ import cn.manager.service.TestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,9 @@ import java.util.UUID;
 @RequestMapping("/test")
 @Api("testTestController")
 public class TestController extends Controller<Test, TestDto> {
+
+    @Value("${name0.name00.name000}")
+    private String name;
 
     @Autowired
     private TestService testService;
@@ -59,7 +63,7 @@ public class TestController extends Controller<Test, TestDto> {
     @ApiOperation("test2")
     public Response<String> test2() {
         Response<String> response = testFeignService.test2();
-        response.setData(response.getData() + "service-manager");
+        response.setData(response.getData() + name);
         return response;
     }
 }

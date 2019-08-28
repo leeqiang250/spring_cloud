@@ -3,3 +3,4 @@ manager/target
 util/target
 eurekaserver/target
 user/target
+config/target

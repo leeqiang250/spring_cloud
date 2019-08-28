@@ -7,6 +7,7 @@ import cn.user.service.TestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,6 +17,9 @@ import java.util.UUID;
 @RequestMapping("/test")
 @Api("testTestController")
 public class TestController extends Controller<Test, TestDto> {
+
+    @Value("${name0.name00.name000}")
+    private String name;
 
     @Autowired
     private TestService testService;
@@ -49,6 +53,6 @@ public class TestController extends Controller<Test, TestDto> {
     @GetMapping("/test2")
     @ApiOperation("test2")
     public Response<String> test2() {
-        return Response.Success("service-user");
+        return Response.Success(name);
     }
 }

@@ -1,6 +1,5 @@
 server:
   port: 8764
-
 spring:
   profiles:
     active: jdbc
@@ -10,14 +9,13 @@ spring:
     config:
       server:
         jdbc:
-          sql: select akey, avalue from test
+          sql: select akey, avalue from test where aapplication = ? and aprofile = ? and alabel = ?
       label: master
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://172.16.20.211:3306/test?characterEncoding=utf8
     username: kcash
     password: 08kCYF7Fefugqioq
-
 eureka:
   client:
     service-url:

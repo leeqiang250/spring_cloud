@@ -1,0 +1,16 @@
+server:
+  port: 8763
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-user
+  cloud:
+    config:
+      discovery:
+        service-id: service-config
+        enabled: true
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update

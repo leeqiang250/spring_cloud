@@ -1,9 +1,11 @@
 package cn.user.entity;
 
 import io.swagger.annotations.Api;
+import lombok.Data;
 
 import javax.persistence.*;
 
+@Data
 @Entity
 @Table(name = "test")
 @Api("Test")
@@ -19,35 +21,4 @@ public class Test extends cn.common.util.Entity {
 
     private String test;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public long getCreatetime() {
-        return createtime;
-    }
-
-    public void setCreatetime(long createtime) {
-        this.createtime = createtime;
-    }
-
-    public long getUpdatetime() {
-        return updatetime;
-    }
-
-    public void setUpdatetime(long updatetime) {
-        this.updatetime = updatetime;
-    }
-
-    public String getTest() {
-        return test;
-    }
-
-    public void setTest(String test) {
-        this.test = test;
-    }
 }

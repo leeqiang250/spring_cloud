@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.UUID;
 
@@ -68,7 +69,9 @@ public class TestController extends Controller<Test, TestDto> {
 
     @GetMapping("/test3")
     @ApiOperation("test3")
-    public Response<String> test3() {
-        return testFeignService.test3();
+    public Response<String> test3(HttpServletRequest request) {
+        Response<String> response = testFeignService.test3();
+        response.setData(request.getServerPort() + response.getData());
+        return response;
     }
 }

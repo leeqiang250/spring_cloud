@@ -23,7 +23,7 @@ import java.util.UUID;
 @Api("testTestController")
 public class TestController extends Controller<Test, TestDto> {
 
-    @Value("${name0.name00.name000}")
+    //@Value("${name0.name00.name000}")
     private String name;
 
     @Autowired
@@ -58,12 +58,17 @@ public class TestController extends Controller<Test, TestDto> {
         return Response.Success(testService.getAll());
     }
 
-
     @GetMapping("/test2")
     @ApiOperation("test2")
     public Response<String> test2() {
         Response<String> response = testFeignService.test2();
         response.setData(response.getData() + name);
         return response;
+    }
+
+    @GetMapping("/test3")
+    @ApiOperation("test3")
+    public Response<String> test3() {
+        return testFeignService.test3();
     }
 }

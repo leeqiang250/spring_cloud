@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.UUID;
 
@@ -20,7 +21,7 @@ import java.util.UUID;
 @Api("testTestController")
 public class TestController extends Controller<Test, TestDto> {
 
-//    @Value("${name0.name00.name000}")
+    //    @Value("${name0.name00.name000}")
     private String name;
 
     @Autowired
@@ -56,6 +57,12 @@ public class TestController extends Controller<Test, TestDto> {
     @ApiOperation("test2")
     public Response<String> test2() {
         return Response.Success(name + ParamConfig.name0_name00_name000);
+    }
+
+    @GetMapping("/test3")
+    @ApiOperation("test3")
+    public Response<String> test3(HttpServletRequest request) {
+        return Response.Success(request.getServerPort() + "");
     }
 
 }

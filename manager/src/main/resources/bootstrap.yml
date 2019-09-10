@@ -5,12 +5,12 @@ spring:
     active: dev
   application:
     name: service-manager
-  cloud:
-    config:
-      discovery:
-        service-id: service-config
-        enabled: true
-      fail-fast: true
+#  cloud:
+#    config:
+#      discovery:
+#        service-id: service-config
+#        enabled: true
+#      fail-fast: true
   jpa:
     show-sql: false
     hibernate:

@@ -1,11 +1,7 @@
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://eura0:8761/eureka/,http://eura1:9761/eureka/
-    #默认30秒
-    registry-fetch-interval-seconds: 30000
 spring:
 #  rabbitmq:
 #  cloud:

@@ -1,5 +1,5 @@
 server:
-  port: 9763
+  port: 8763
 spring:
   profiles:
     active: dev
@@ -16,3 +16,9 @@ spring:
     hibernate:
       ddl-auto: update
     open-in-view: false
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    #默认30秒
+    registry-fetch-interval-seconds: 30000

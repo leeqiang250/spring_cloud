@@ -1,8 +1,6 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: eura0
   client:
-    register-with-eureka: false
-    fetch-registry: false
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+      defaultZone: http://eura0:8761/eureka/,http://eura1:9761/eureka/

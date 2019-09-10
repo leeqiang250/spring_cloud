@@ -8,7 +8,6 @@ import cn.user.service.TestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +20,7 @@ import java.util.UUID;
 @Api("testTestController")
 public class TestController extends Controller<Test, TestDto> {
 
-    @Value("${name0.name00.name000}")
+//    @Value("${name0.name00.name000}")
     private String name;
 
     @Autowired
@@ -59,9 +58,4 @@ public class TestController extends Controller<Test, TestDto> {
         return Response.Success(name + ParamConfig.name0_name00_name000);
     }
 
-    @GetMapping("/test3")
-    @ApiOperation("test3")
-    public code0 test3() {
-        return null;
-    }
 }

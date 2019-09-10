@@ -2,20 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c610437-3938-4770-80e2-9f63eda70795" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/ManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/dto/TestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/dto/TestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/code0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/code1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/dto/TestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/dto/TestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/entity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/entity/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/test/java/cn/user/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/test/java/cn/user/UserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/user.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/Dto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/Dto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/ErrorCodeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/ErrorCodeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/Pageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/Pageable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/common/util/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/common/util/Response.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -261,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567997303276" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568087328791" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -339,18 +363,18 @@
       <workItem from="1567012054419" duration="3554000" />
       <workItem from="1567047710266" duration="46000" />
       <workItem from="1567994682470" duration="1219000" />
-      <workItem from="1567996193306" duration="1101000" />
+      <workItem from="1567996193306" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38874000" />
+    <option name="totallyTimeSpent" value="39719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.25456712" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.25456712" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" visible="true" weight="0.25456712" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +384,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3941606" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3941606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

@@ -5,3 +5,15 @@ spring:
     active: dev
   application:
     name: eureka-server
+eureka:
+  server:
+    enable-self-preservation: true
+    #默认60秒
+    eviction-interval-timer-in-ms: 60000
+    #默认0.85
+    renewal-percent-threshold: 0.85
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false

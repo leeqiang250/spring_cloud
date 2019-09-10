@@ -1,18 +1,22 @@
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eura0:8761/eureka/,http://eura1:9761/eureka/
+    #默认30秒
+    registry-fetch-interval-seconds: 30000
 spring:
-  #rabbitmq:
-  cloud:
-    bus:
-      enabled: true
-      trace:
-        enabled: true
-    config:
-      profile: dev
-      label: dev
-      fail-fast: true
+#  rabbitmq:
+#  cloud:
+#    bus:
+#    enabled: true
+#    trace:
+#    enabled: true
+#    config:
+#      profile: dev
+#      label: dev
+#      fail-fast: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://172.16.20.211:3306/test?characterEncoding=utf8
@@ -21,8 +25,8 @@ spring:
   redis:
     host: 172.16.20.210
     port: 6379
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh

@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8c610437-3938-4770-80e2-9f63eda70795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/ManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/feign/TestFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/feign/TestFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/resources/bootstrap-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +18,7 @@
     <session id="1028713742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -262,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568094410500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568094569314" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -349,10 +338,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.25456712" />
-      <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" visible="true" weight="0.25456712" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.25456712" />
+      <window_info id="Structure" order="1" sideWeight="0.5007299" side_tool="true" visible="true" weight="0.25456712" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -361,7 +349,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3941606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3941606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

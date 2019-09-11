@@ -5,7 +5,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient(value = "service-user",path = "/test")
+@FeignClient(value = "service-user", path = "/test", fallback = TestFeignServiceHystric.class)
 public interface TestFeignService {
 
     @GetMapping("/test2")

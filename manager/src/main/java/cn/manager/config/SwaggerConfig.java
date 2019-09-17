@@ -1,4 +1,4 @@
-package cn.manager.config;
+package cn.user.config;
 
 
 import org.springframework.context.annotation.Bean;
@@ -21,20 +21,19 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.any())
-                //.apis(RequestHandlerSelectors.basePackage("com.kcash.cms.backsystem.controller"))
+                //.apis(RequestHandlerSelectors.any())
+                .apis(RequestHandlerSelectors.basePackage("cn"))
                 .paths(PathSelectors.any())
                 //.paths(path -> path.startsWith("/kcard"))
                 .build();
     }
-
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("title")
                 .description("description")
                 .contact(
-                        new Contact("leeqiang", "note.abeffect.com", "leeqiang250@163.com")
+                        new Contact("leeqiang", "http://www.leeqiang.com", "leeqiang250@163.com")
                 )
                 .version("1.0.0-SNAPSHOT")
                 .build();

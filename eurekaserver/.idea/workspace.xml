@@ -2,44 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="570c990f-042d-4b09-ba94-84f6fb82ecaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/ManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/dto/TestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../manager/src/main/java/cn/manager/dto/TestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/src/test/java/cn/user/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/test/java/cn/user/UserApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../util/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/main/java/cn/user/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/main/java/cn/user/config/SwaggerConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,14 +21,14 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="17" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,7 +37,7 @@
           <entry key="java" value="7" />
           <entry key="properties" value="1" />
           <entry key="xml" value="4" />
-          <entry key="yml" value="21" />
+          <entry key="yml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -79,7 +46,7 @@
           <entry key="JAVA" value="7" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="4" />
-          <entry key="YAML" value="21" />
+          <entry key="YAML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -163,6 +130,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -173,6 +141,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,8 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +200,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568085203208" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568693066347" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -316,16 +284,18 @@
       <workItem from="1568012307143" duration="5831000" />
       <workItem from="1568078006312" duration="2113000" />
       <workItem from="1568085363681" duration="131000" />
+      <workItem from="1568602757831" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16173000" />
+    <option name="totallyTimeSpent" value="18528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13065925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12271644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,7 +322,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.08339953" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.04090548" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -405,17 +375,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -4,3 +4,4 @@ util/target
 eurekaserver/target
 user/target
 config/target
+test/target
